@@ -13,6 +13,8 @@
 		06B7FB402A32306A0056249F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06B7FB3E2A32306A0056249F /* Main.storyboard */; };
 		06B7FB422A3230700056249F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06B7FB412A3230700056249F /* Assets.xcassets */; };
 		06B7FB452A3230700056249F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06B7FB432A3230700056249F /* LaunchScreen.storyboard */; };
+		06B7FB4D2A3230CC0056249F /* 参考資料.txt in Resources */ = {isa = PBXBuildFile; fileRef = 06B7FB4C2A3230CC0056249F /* 参考資料.txt */; };
+		06B7FB4F2A3231B70056249F /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7FB4E2A3231B70056249F /* ContainerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		06B7FB412A3230700056249F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06B7FB442A3230700056249F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06B7FB462A3230700056249F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06B7FB4C2A3230CC0056249F /* 参考資料.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "参考資料.txt"; sourceTree = "<group>"; };
+		06B7FB4E2A3231B70056249F /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				06B7FB382A32306A0056249F /* AppDelegate.swift */,
 				06B7FB3A2A32306A0056249F /* SceneDelegate.swift */,
 				06B7FB3C2A32306A0056249F /* ViewController.swift */,
+				06B7FB4E2A3231B70056249F /* ContainerViewController.swift */,
 				06B7FB3E2A32306A0056249F /* Main.storyboard */,
 				06B7FB412A3230700056249F /* Assets.xcassets */,
 				06B7FB432A3230700056249F /* LaunchScreen.storyboard */,
 				06B7FB462A3230700056249F /* Info.plist */,
+				06B7FB4C2A3230CC0056249F /* 参考資料.txt */,
 			);
 			path = ContainerView.sample;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				06B7FB452A3230700056249F /* LaunchScreen.storyboard in Resources */,
 				06B7FB422A3230700056249F /* Assets.xcassets in Resources */,
+				06B7FB4D2A3230CC0056249F /* 参考資料.txt in Resources */,
 				06B7FB402A32306A0056249F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				06B7FB3D2A32306A0056249F /* ViewController.swift in Sources */,
 				06B7FB392A32306A0056249F /* AppDelegate.swift in Sources */,
+				06B7FB4F2A3231B70056249F /* ContainerViewController.swift in Sources */,
 				06B7FB3B2A32306A0056249F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
